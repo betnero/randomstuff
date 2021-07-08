@@ -1,14 +1,14 @@
 #!/bin/env python3
 #script converts strings into hex
+"""
+ord(x) returns a decimal representation of "x".
+hex(x) function converts "x"
+"""
 
 #define user input
 usr=input("Choose charcters to convert: ")
 
-"""
-ord(x) returns a decimal representation of "x".
-hex(x) function converts "x"
-for each item from user input transform it into decimal, than into hex and print it.
-"""
+#transform each item from user input into decimal, than into hex and print it.
 for i in usr:
     b=(((hex(ord(i)))))
 
