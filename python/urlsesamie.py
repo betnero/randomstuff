@@ -18,3 +18,10 @@ l = {
 
 for x in l:
     webbrowser.open(x)
+
+"""
+You could as well go with tuples:
+import webbrowser
+l = webbrowser.open
+l('put_a_link_here')
+"""
