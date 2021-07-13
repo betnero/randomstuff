@@ -1,5 +1,9 @@
-import webbrowser
+#!/bin/env python3
+
 # The script opens predefined websites using python dictionaries
+
+import webbrowser
+
 l = {
         "https://www.bleepingcomputer.com/",
         "https://securityaffairs.co/wordpress/",
@@ -20,7 +24,7 @@ for x in l:
     webbrowser.open(x)
 
 """
-You could as well go with tuples:
+You could as get the same result with tuples:
 import webbrowser
 l = webbrowser.open
 l('put_a_link_here')
