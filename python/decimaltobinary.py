@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 while True: # The loop together with the go_again variable will enable program restart at users will
     
     try: # try: except: mechanism for user input validation
