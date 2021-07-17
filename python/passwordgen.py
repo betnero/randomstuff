@@ -10,8 +10,8 @@ print("DISCLAIMER: ")
 print("A password to be considered secure should be at least 12 characters long. It should include special characters, upper- and lowercase letters and digits.")
 print("-" * 75)
 print("ATTENTION!: ")
-print("This password gpassword enrator is a PoC and should not be considered fully secure. It should be treated as an assistive measure only.")
-print("The user takes full responsibility of any direct or indirect damage inflicted by propper or inproper use of the software or its parts.")
+print("This password generator is a PoC and should not be considered fully secure. It is to be treated as an assistive measure only.")
+print("The user takes full responsibility of any direct or indirect damage inflicted by proper or inproper use of the software or its parts.")
 print("-" * 75)
 print()
 
@@ -27,10 +27,10 @@ while True:
     # Definition of scope of numbers to be used for password generation
     alphabet = string.ascii_letters + string.digits + string.punctuation
 
-    # Looped to generate password with min. requirements being: at least 1 uppercase, 1 lowercasr and 3 digits
+    # Looped to generate a password with min. requirements of: at least 1 uppercase, 1 lowercasr and 3 digits
     while True:
 
-        # Join all parts of the variable "alphabet" and itterate the number of times indicated by the user
+        # Join all parts of the variable "alphabet" and itterate the number of times indicated by the user input
         password = "".join(secrets.choice(alphabet) for i in range(usr))
 
         # Check if the password meets minimum requirements
