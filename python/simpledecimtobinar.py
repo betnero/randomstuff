@@ -1,4 +1,5 @@
 #!/bin/env python3
+#This script converts a number into a binary form
 
 try:
     usr = input("What number would you like to convert into binary?: ")
