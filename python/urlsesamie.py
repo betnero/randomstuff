@@ -24,7 +24,7 @@ for x in l:
     webbrowser.open(x)
 
 """
-You could as get the same result with tuples:
+You could get the same result with tuples:
 import webbrowser
 l = webbrowser.open
 l('put_a_link_here')
