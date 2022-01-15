@@ -15,6 +15,8 @@ mount -t tmpfs tmpfs /mnt/ram -o size=8192M
 # tunnel with ssh (local port 3337 -> remote host's 127.0.0.1 on port 6379)
 ssh -L 3337:127.0.0.1:6379 root@emkc.org -N
 
+#------------------------
+
 #How to compile C code: 
 gcc -o hello hello.c   ===> compiles hello.c into an executable hello
  
@@ -30,4 +32,4 @@ source: https://www.javatpoint.com/bash-variables
     $$ specifies the exit status of the last command or the most recent execution process.
     $! shows ID of the last background job.
  
- bash tutorial link: https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+ bash tutorial link: https://linuxconfig.org/bash-scripting-tutorial-for-beginners 
