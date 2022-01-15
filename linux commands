@@ -18,3 +18,16 @@ ssh -L 3337:127.0.0.1:6379 root@emkc.org -N
 #How to compile C code: 
 gcc -o hello hello.c   ===> compiles hello.c into an executable hello
  
+
+source: https://www.javatpoint.com/bash-variables
+ 
+    $0 specifies the name of the script to be invoked.
+    $1-$9 stores the names of the first 9 arguments or can be used as the arguments positions.
+    $# specifies the total number (count) of arguments passed to the script.
+    $* stores all the command line arguments by joining them together.
+    $@ stores the list of arguments as an array.
+    $? specifies the process ID of the current script.
+    $$ specifies the exit status of the last command or the most recent execution process.
+    $! shows ID of the last background job.
+ 
+ bash tutorial link: https://linuxconfig.org/bash-scripting-tutorial-for-beginners
