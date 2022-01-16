@@ -33,3 +33,7 @@ source: https://www.javatpoint.com/bash-variables
     $! shows ID of the last background job.
  
  bash tutorial link: https://linuxconfig.org/bash-scripting-tutorial-for-beginners 
+
+#Run linux commands one after another i.e.: sudo apt-update; sudo apt-get upgrade -y
+
+
