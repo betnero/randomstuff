@@ -36,4 +36,7 @@ source: https://www.javatpoint.com/bash-variables
 
 #Run linux commands one after another i.e.: sudo apt-update; sudo apt-get upgrade -y
 
+ss -lnpt --> will specify all listening ports for TCP and UDP.
+
+
 
