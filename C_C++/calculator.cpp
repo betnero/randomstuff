@@ -27,6 +27,8 @@ int main()
         else
             cout << "Not valid!";
         break;
+        
+        default:cout << "Not valid opeation!" << endl;
 
 
     }
