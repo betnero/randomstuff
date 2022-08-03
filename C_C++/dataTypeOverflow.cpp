@@ -1,5 +1,5 @@
 /*
-Thos shortscript shows the maximum limit of an integer, printsit and prints that integer plus 1 what causes a dataype overflow printing a negative number.
+This shortscript shows the maximum limit of an integer, printsit and prints that integer plus 1 what causes a dataype overflow printing a negative number.
 */
 
 #include <iostream>
