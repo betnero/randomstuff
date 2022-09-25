@@ -11,7 +11,7 @@ f = open("echoscan.txt", "w+")
 # ping IPs wthin a given range
 for ping in range(1, 256): # IP range
     
-    address = "192.168.147." + str(ping) # First 3 octets + an IP from range
+    address = "111.111.111." + str(ping) # First 3 octets + an IP from range
     res = subprocess.call(['ping', '-c', '1', address]) # Ping sweep
   
     # sleep 1 sec to avoid FW alerts (optional; shouldn't work if the FW is properly configured). OPTIONAL.
