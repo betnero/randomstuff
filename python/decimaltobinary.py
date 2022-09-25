@@ -4,17 +4,17 @@ while True: # The loop together with the go_again variable will enable program r
     
     try: # try: except: mechanism for user input validation
         print() # Print empty line
-        usr = input("What number?: ") # User input
+        usr = input("What is your number?: ") # User input
         print('{0:08b}'.format( int(usr))) # Binary represntation of user input
         print()
 
         # Print user input length
-        print("Number digits entered: ")
+        print("Number of digits entered: ")
         print(len(usr))
         print()
 
         # Print length of the binary convertion
-        print("Number bits in the number (min.8): ")
+        print("Number of bits in the number (min.8): ")
         print(len('{0:08b}'.format(int(usr))))
         print()
         
