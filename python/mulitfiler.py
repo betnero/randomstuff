@@ -1,6 +1,6 @@
 #!/bin/env python3
 
-### The script wil create as many files as indicated in the n variable (in this case 10 files). File names will be named by random numbers up. 
+### The script wil create as many files as indicated in the n variable (in this case 10 files). File names will be named with random numbers. 
 ### WARNING! : creating too many files on your computer may fill up your disk space and crash the computer. Use at your own risk.
 
 from unicodedata import name
