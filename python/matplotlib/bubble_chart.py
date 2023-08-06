@@ -12,4 +12,4 @@ plt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')
 
 plt.colorbar()
 
-plt.show() 
+plt.show()

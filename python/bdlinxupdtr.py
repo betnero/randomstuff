@@ -1,5 +1,8 @@
 #!/bin/env python3
-# This script is suppose to update and upgrade Linux but is slow. Done purely as a PoC. Better off doing updates manually or use a bash script.
+# This script is suppose to update
+# and upgrade Linux but is slow.
+# Done purely as a PoC.
+# Better off doing updates manually or use a bash script.
 
 from subprocess import call
 
